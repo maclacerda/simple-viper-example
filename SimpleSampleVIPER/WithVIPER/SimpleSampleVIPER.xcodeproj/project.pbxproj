@@ -7,21 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F6D0D3121B7EE51005C7965 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6D0D2E21B7EE51005C7965 /* Kingfisher.framework */; };
+		0F6D0D3221B7EE51005C7965 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6D0D2F21B7EE51005C7965 /* Alamofire.framework */; };
+		0F6D0D3321B7EE51005C7965 /* CodableAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6D0D3021B7EE51005C7965 /* CodableAlamofire.framework */; };
+		0F6D0D3621B7EE99005C7965 /* Commom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D0D3521B7EE99005C7965 /* Commom.swift */; };
+		0F6D0D3921B7EED6005C7965 /* UIViewController+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D0D3821B7EED6005C7965 /* UIViewController+extensions.swift */; };
+		0F6D0D3D21B7EF8B005C7965 /* ArticlesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D0D3C21B7EF8B005C7965 /* ArticlesListViewController.swift */; };
+		0F6D0D3F21B7EFA6005C7965 /* ArticlesListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D0D3E21B7EFA6005C7965 /* ArticlesListPresenter.swift */; };
+		0F6D0D4121B7EFB0005C7965 /* ArticlesListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D0D4021B7EFB0005C7965 /* ArticlesListInteractor.swift */; };
+		0F6D0D4321B7EFBE005C7965 /* ArticlesListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D0D4221B7EFBE005C7965 /* ArticlesListRouter.swift */; };
+		0F6D0D4521B7F0A4005C7965 /* ArticlesViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D0D4421B7F0A4005C7965 /* ArticlesViewInterface.swift */; };
+		0F6D0D4821B7F0DF005C7965 /* ArticlesPresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D0D4721B7F0DF005C7965 /* ArticlesPresenterInterface.swift */; };
+		0F6D0D4A21B7F149005C7965 /* ArticlesRouterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D0D4921B7F149005C7965 /* ArticlesRouterInterface.swift */; };
+		0F6D0D4C21B7F175005C7965 /* ArticlesListInteractorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D0D4B21B7F175005C7965 /* ArticlesListInteractorInterface.swift */; };
+		0F6D0D4E21B7F224005C7965 /* ArticlesListModuleCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D0D4D21B7F224005C7965 /* ArticlesListModuleCreation.swift */; };
+		0F6D0D5021B7F5AC005C7965 /* ArticlesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F6D0D4F21B7F5AC005C7965 /* ArticlesListViewController.xib */; };
 		0FE4C52A21B734EA003A6683 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE4C52921B734EA003A6683 /* AppDelegate.swift */; };
-		0FE4C52C21B734EA003A6683 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE4C52B21B734EA003A6683 /* ViewController.swift */; };
-		0FE4C52F21B734EA003A6683 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE4C52D21B734EA003A6683 /* Main.storyboard */; };
 		0FE4C53121B734EC003A6683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FE4C53021B734EC003A6683 /* Assets.xcassets */; };
 		0FE4C53421B734EC003A6683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE4C53221B734EC003A6683 /* LaunchScreen.storyboard */; };
+		0FF4DEF221BECD8F00E53EC7 /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF4DEF121BECD8F00E53EC7 /* Articles.swift */; };
+		0FF4DEF521BED0B300E53EC7 /* ArticleServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF4DEF421BED0B300E53EC7 /* ArticleServices.swift */; };
+		0FF4DEF921BED39C00E53EC7 /* ArticlesListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF4DEF721BED39C00E53EC7 /* ArticlesListTableViewCell.swift */; };
+		0FF4DEFA21BED39C00E53EC7 /* ArticlesListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF4DEF821BED39C00E53EC7 /* ArticlesListTableViewCell.xib */; };
+		0FF4DEFE21BEDED400E53EC7 /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF4DEFC21BEDED400E53EC7 /* ArticleDetailViewController.swift */; };
+		0FF4DEFF21BEDED400E53EC7 /* ArticleDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF4DEFD21BEDED400E53EC7 /* ArticleDetailViewController.xib */; };
+		0FF4DF0121BEDEE300E53EC7 /* ArticleDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF4DF0021BEDEE300E53EC7 /* ArticleDetailPresenter.swift */; };
+		0FF4DF0321BEDEED00E53EC7 /* ArticleDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF4DF0221BEDEED00E53EC7 /* ArticleDetailInteractor.swift */; };
+		0FF4DF0521BEDEF600E53EC7 /* ArticleDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF4DF0421BEDEF600E53EC7 /* ArticleDetailRouter.swift */; };
+		0FF4DF0721BEDF0100E53EC7 /* ArticleDetailModuleCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF4DF0621BEDF0100E53EC7 /* ArticleDetailModuleCreation.swift */; };
+		0FF4DF0A21BEDF1800E53EC7 /* ArticleDetailViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF4DF0921BEDF1800E53EC7 /* ArticleDetailViewInterface.swift */; };
+		0FF4DF0C21BEDF2500E53EC7 /* ArticleDetailPresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF4DF0B21BEDF2500E53EC7 /* ArticleDetailPresenterInterface.swift */; };
+		0FF4DF0E21BEDF2F00E53EC7 /* ArticleDetailRouterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF4DF0D21BEDF2F00E53EC7 /* ArticleDetailRouterInterface.swift */; };
+		0FF4DF1021BEDF3900E53EC7 /* ArticleDetailInteractorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF4DF0F21BEDF3900E53EC7 /* ArticleDetailInteractorInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F6D0D2E21B7EE51005C7965 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		0F6D0D2F21B7EE51005C7965 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		0F6D0D3021B7EE51005C7965 /* CodableAlamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CodableAlamofire.framework; path = Carthage/Build/iOS/CodableAlamofire.framework; sourceTree = "<group>"; };
+		0F6D0D3521B7EE99005C7965 /* Commom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commom.swift; sourceTree = "<group>"; };
+		0F6D0D3821B7EED6005C7965 /* UIViewController+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+extensions.swift"; sourceTree = "<group>"; };
+		0F6D0D3C21B7EF8B005C7965 /* ArticlesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesListViewController.swift; sourceTree = "<group>"; };
+		0F6D0D3E21B7EFA6005C7965 /* ArticlesListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesListPresenter.swift; sourceTree = "<group>"; };
+		0F6D0D4021B7EFB0005C7965 /* ArticlesListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesListInteractor.swift; sourceTree = "<group>"; };
+		0F6D0D4221B7EFBE005C7965 /* ArticlesListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesListRouter.swift; sourceTree = "<group>"; };
+		0F6D0D4421B7F0A4005C7965 /* ArticlesViewInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewInterface.swift; sourceTree = "<group>"; };
+		0F6D0D4721B7F0DF005C7965 /* ArticlesPresenterInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesPresenterInterface.swift; sourceTree = "<group>"; };
+		0F6D0D4921B7F149005C7965 /* ArticlesRouterInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesRouterInterface.swift; sourceTree = "<group>"; };
+		0F6D0D4B21B7F175005C7965 /* ArticlesListInteractorInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesListInteractorInterface.swift; sourceTree = "<group>"; };
+		0F6D0D4D21B7F224005C7965 /* ArticlesListModuleCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesListModuleCreation.swift; sourceTree = "<group>"; };
+		0F6D0D4F21B7F5AC005C7965 /* ArticlesListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticlesListViewController.xib; sourceTree = "<group>"; };
 		0FE4C52621B734EA003A6683 /* SimpleSampleVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleSampleVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FE4C52921B734EA003A6683 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0FE4C52B21B734EA003A6683 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0FE4C52E21B734EA003A6683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FE4C53021B734EC003A6683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FE4C53321B734EC003A6683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FE4C53521B734EC003A6683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FF4DEF121BECD8F00E53EC7 /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		0FF4DEF421BED0B300E53EC7 /* ArticleServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleServices.swift; sourceTree = "<group>"; };
+		0FF4DEF721BED39C00E53EC7 /* ArticlesListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesListTableViewCell.swift; sourceTree = "<group>"; };
+		0FF4DEF821BED39C00E53EC7 /* ArticlesListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticlesListTableViewCell.xib; sourceTree = "<group>"; };
+		0FF4DEFC21BEDED400E53EC7 /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
+		0FF4DEFD21BEDED400E53EC7 /* ArticleDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleDetailViewController.xib; sourceTree = "<group>"; };
+		0FF4DF0021BEDEE300E53EC7 /* ArticleDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailPresenter.swift; sourceTree = "<group>"; };
+		0FF4DF0221BEDEED00E53EC7 /* ArticleDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailInteractor.swift; sourceTree = "<group>"; };
+		0FF4DF0421BEDEF600E53EC7 /* ArticleDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailRouter.swift; sourceTree = "<group>"; };
+		0FF4DF0621BEDF0100E53EC7 /* ArticleDetailModuleCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailModuleCreation.swift; sourceTree = "<group>"; };
+		0FF4DF0921BEDF1800E53EC7 /* ArticleDetailViewInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewInterface.swift; sourceTree = "<group>"; };
+		0FF4DF0B21BEDF2500E53EC7 /* ArticleDetailPresenterInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailPresenterInterface.swift; sourceTree = "<group>"; };
+		0FF4DF0D21BEDF2F00E53EC7 /* ArticleDetailRouterInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailRouterInterface.swift; sourceTree = "<group>"; };
+		0FF4DF0F21BEDF3900E53EC7 /* ArticleDetailInteractorInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailInteractorInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +83,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F6D0D3121B7EE51005C7965 /* Kingfisher.framework in Frameworks */,
+				0F6D0D3221B7EE51005C7965 /* Alamofire.framework in Frameworks */,
+				0F6D0D3321B7EE51005C7965 /* CodableAlamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F6D0D2D21B7EE50005C7965 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F6D0D2F21B7EE51005C7965 /* Alamofire.framework */,
+				0F6D0D3021B7EE51005C7965 /* CodableAlamofire.framework */,
+				0F6D0D2E21B7EE51005C7965 /* Kingfisher.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F6D0D3721B7EE9D005C7965 /* Commom */ = {
+			isa = PBXGroup;
+			children = (
+				0F6D0D3521B7EE99005C7965 /* Commom.swift */,
+				0F6D0D3A21B7EEE2005C7965 /* Extensions */,
+			);
+			path = Commom;
+			sourceTree = "<group>";
+		};
+		0F6D0D3A21B7EEE2005C7965 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0F6D0D3821B7EED6005C7965 /* UIViewController+extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0F6D0D3B21B7EF55005C7965 /* ArticlesListModule */ = {
+			isa = PBXGroup;
+			children = (
+				0F6D0D3C21B7EF8B005C7965 /* ArticlesListViewController.swift */,
+				0F6D0D4F21B7F5AC005C7965 /* ArticlesListViewController.xib */,
+				0F6D0D3E21B7EFA6005C7965 /* ArticlesListPresenter.swift */,
+				0F6D0D4021B7EFB0005C7965 /* ArticlesListInteractor.swift */,
+				0F6D0D4221B7EFBE005C7965 /* ArticlesListRouter.swift */,
+				0F6D0D4D21B7F224005C7965 /* ArticlesListModuleCreation.swift */,
+				0F6D0D4621B7F0CA005C7965 /* Protocols */,
+				0FF4DEF621BED37B00E53EC7 /* Cell */,
+			);
+			path = ArticlesListModule;
+			sourceTree = "<group>";
+		};
+		0F6D0D4621B7F0CA005C7965 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0F6D0D4421B7F0A4005C7965 /* ArticlesViewInterface.swift */,
+				0F6D0D4721B7F0DF005C7965 /* ArticlesPresenterInterface.swift */,
+				0F6D0D4921B7F149005C7965 /* ArticlesRouterInterface.swift */,
+				0F6D0D4B21B7F175005C7965 /* ArticlesListInteractorInterface.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		0FE4C51D21B734EA003A6683 = {
 			isa = PBXGroup;
 			children = (
 				0FE4C52821B734EA003A6683 /* SimpleSampleVIPER */,
 				0FE4C52721B734EA003A6683 /* Products */,
+				0F6D0D2D21B7EE50005C7965 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +166,66 @@
 			isa = PBXGroup;
 			children = (
 				0FE4C52921B734EA003A6683 /* AppDelegate.swift */,
-				0FE4C52B21B734EA003A6683 /* ViewController.swift */,
-				0FE4C52D21B734EA003A6683 /* Main.storyboard */,
 				0FE4C53021B734EC003A6683 /* Assets.xcassets */,
 				0FE4C53221B734EC003A6683 /* LaunchScreen.storyboard */,
 				0FE4C53521B734EC003A6683 /* Info.plist */,
+				0FF4DEFB21BEDEB700E53EC7 /* ArticlesDetailModule */,
+				0F6D0D3B21B7EF55005C7965 /* ArticlesListModule */,
+				0FF4DEF321BED0A500E53EC7 /* Networking */,
+				0FF4DEF021BECD7C00E53EC7 /* Models */,
+				0F6D0D3721B7EE9D005C7965 /* Commom */,
 			);
 			path = SimpleSampleVIPER;
+			sourceTree = "<group>";
+		};
+		0FF4DEF021BECD7C00E53EC7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0FF4DEF121BECD8F00E53EC7 /* Articles.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0FF4DEF321BED0A500E53EC7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0FF4DEF421BED0B300E53EC7 /* ArticleServices.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0FF4DEF621BED37B00E53EC7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0FF4DEF721BED39C00E53EC7 /* ArticlesListTableViewCell.swift */,
+				0FF4DEF821BED39C00E53EC7 /* ArticlesListTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0FF4DEFB21BEDEB700E53EC7 /* ArticlesDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				0FF4DEFC21BEDED400E53EC7 /* ArticleDetailViewController.swift */,
+				0FF4DEFD21BEDED400E53EC7 /* ArticleDetailViewController.xib */,
+				0FF4DF0021BEDEE300E53EC7 /* ArticleDetailPresenter.swift */,
+				0FF4DF0221BEDEED00E53EC7 /* ArticleDetailInteractor.swift */,
+				0FF4DF0421BEDEF600E53EC7 /* ArticleDetailRouter.swift */,
+				0FF4DF0621BEDF0100E53EC7 /* ArticleDetailModuleCreation.swift */,
+				0FF4DF0821BEDF0600E53EC7 /* Protocols */,
+			);
+			path = ArticlesDetailModule;
+			sourceTree = "<group>";
+		};
+		0FF4DF0821BEDF0600E53EC7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0FF4DF0921BEDF1800E53EC7 /* ArticleDetailViewInterface.swift */,
+				0FF4DF0B21BEDF2500E53EC7 /* ArticleDetailPresenterInterface.swift */,
+				0FF4DF0D21BEDF2F00E53EC7 /* ArticleDetailRouterInterface.swift */,
+				0FF4DF0F21BEDF3900E53EC7 /* ArticleDetailInteractorInterface.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +238,7 @@
 				0FE4C52221B734EA003A6683 /* Sources */,
 				0FE4C52321B734EA003A6683 /* Frameworks */,
 				0FE4C52421B734EA003A6683 /* Resources */,
+				0F6D0D3421B7EE56005C7965 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -122,35 +287,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF4DEFA21BED39C00E53EC7 /* ArticlesListTableViewCell.xib in Resources */,
 				0FE4C53421B734EC003A6683 /* LaunchScreen.storyboard in Resources */,
+				0F6D0D5021B7F5AC005C7965 /* ArticlesListViewController.xib in Resources */,
+				0FF4DEFF21BEDED400E53EC7 /* ArticleDetailViewController.xib in Resources */,
 				0FE4C53121B734EC003A6683 /* Assets.xcassets in Resources */,
-				0FE4C52F21B734EA003A6683 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F6D0D3421B7EE56005C7965 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CodableAlamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0FE4C52221B734EA003A6683 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FE4C52C21B734EA003A6683 /* ViewController.swift in Sources */,
 				0FE4C52A21B734EA003A6683 /* AppDelegate.swift in Sources */,
+				0F6D0D4C21B7F175005C7965 /* ArticlesListInteractorInterface.swift in Sources */,
+				0FF4DEF221BECD8F00E53EC7 /* Articles.swift in Sources */,
+				0F6D0D4E21B7F224005C7965 /* ArticlesListModuleCreation.swift in Sources */,
+				0FF4DEF921BED39C00E53EC7 /* ArticlesListTableViewCell.swift in Sources */,
+				0FF4DF0A21BEDF1800E53EC7 /* ArticleDetailViewInterface.swift in Sources */,
+				0FF4DEF521BED0B300E53EC7 /* ArticleServices.swift in Sources */,
+				0FF4DF0721BEDF0100E53EC7 /* ArticleDetailModuleCreation.swift in Sources */,
+				0FF4DEFE21BEDED400E53EC7 /* ArticleDetailViewController.swift in Sources */,
+				0FF4DF0E21BEDF2F00E53EC7 /* ArticleDetailRouterInterface.swift in Sources */,
+				0FF4DF0521BEDEF600E53EC7 /* ArticleDetailRouter.swift in Sources */,
+				0F6D0D4521B7F0A4005C7965 /* ArticlesViewInterface.swift in Sources */,
+				0FF4DF0321BEDEED00E53EC7 /* ArticleDetailInteractor.swift in Sources */,
+				0F6D0D3921B7EED6005C7965 /* UIViewController+extensions.swift in Sources */,
+				0F6D0D4A21B7F149005C7965 /* ArticlesRouterInterface.swift in Sources */,
+				0F6D0D4821B7F0DF005C7965 /* ArticlesPresenterInterface.swift in Sources */,
+				0F6D0D4321B7EFBE005C7965 /* ArticlesListRouter.swift in Sources */,
+				0F6D0D3D21B7EF8B005C7965 /* ArticlesListViewController.swift in Sources */,
+				0F6D0D4121B7EFB0005C7965 /* ArticlesListInteractor.swift in Sources */,
+				0FF4DF0C21BEDF2500E53EC7 /* ArticleDetailPresenterInterface.swift in Sources */,
+				0FF4DF1021BEDF3900E53EC7 /* ArticleDetailInteractorInterface.swift in Sources */,
+				0F6D0D3621B7EE99005C7965 /* Commom.swift in Sources */,
+				0FF4DF0121BEDEE300E53EC7 /* ArticleDetailPresenter.swift in Sources */,
+				0F6D0D3F21B7EFA6005C7965 /* ArticlesListPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0FE4C52D21B734EA003A6683 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0FE4C52E21B734EA003A6683 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0FE4C53221B734EC003A6683 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +488,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SimpleSampleVIPER/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,7 +500,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.maclacerda.SimpleSampleVIPER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,6 +509,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SimpleSampleVIPER/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,7 +521,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.maclacerda.SimpleSampleVIPER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
